@@ -47,3 +47,17 @@ app.listen(app.get('port'), function(){
   console.log( 'Express started on http://localhost:' +
     app.get('port') + '; press Ctrl-C to terminate.' );
 });
+//
+//
+// var server;
+// var http = require('http');
+//
+// function startServer() {
+//     server = http.createServer(app).listen(app.get('port'), function(){
+//       console.log( 'Express started in ' + app.get('env') +
+//         ' mode on http://localhost:' + app.get('port') +
+//         '; press Ctrl-C to terminate.' );
+//     });
+// }
+//
+// startServer();
